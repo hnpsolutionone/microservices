@@ -1,0 +1,16 @@
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+test/bower_components
+.c9/
+.editorconfig
+.gitattributes
+.jshintrc
+.yo-rc.json
+composer.lock
+composer.phar
+rabbitmq-signing-key-public.asc
+vendor/
+tmp/
