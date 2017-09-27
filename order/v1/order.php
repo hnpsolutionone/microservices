@@ -10,7 +10,3 @@ $theName = filter_input(INPUT_POST, 'theName', FILTER_SANITIZE_STRING);
 $simpleSender = new SimpleSender();
 
 $simpleSender->execute($theName);
-echo json_encode(array(
-        'status' => 200,
-        'message' => 'Executed successful'
-));

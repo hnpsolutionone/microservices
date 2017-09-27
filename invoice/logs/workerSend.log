@@ -2,3 +2,7 @@
 [2017-09-27 07:58:37] workerSend.INFO: Published task to worker [] []
 [2017-09-27 08:00:09] workerSend.INFO: Received invoice for processing: 2222222 [] []
 [2017-09-27 08:00:09] workerSend.INFO: Published task to worker [] []
+[2017-09-27 12:48:48] workerSend.INFO: Received invoice for processing: 4444444 [] []
+[2017-09-27 12:48:49] workerSend.INFO: Published task to worker [] []
+[2017-09-27 12:53:39] workerSend.INFO: Received invoice for processing: 6666666 [] []
+[2017-09-27 12:53:39] workerSend.INFO: Published task to worker [] []

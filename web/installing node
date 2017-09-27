@@ -1,6 +1,0 @@
-sudo add-apt-repository ppa:chris-lea/node.js
- sudo apt-get install nodejs
- 
- npm install -g bower
- 
- bower install bootstrap

@@ -35,7 +35,7 @@
       <file leaf-file-name="RpcReceiver.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AmqpWrapper/RpcReceiver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="16" selection-start="3480" selection-end="3480" vertical-scroll-proportion="0.6939891" vertical-offset="1557" max-vertical-offset="2108">
+            <state line="115" column="89" selection-start="3444" selection-end="3444" vertical-scroll-proportion="0.6284153" vertical-offset="1559" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
@@ -232,7 +232,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AmqpWrapper/RpcReceiver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="16" selection-start="3480" selection-end="3480" vertical-scroll-proportion="0.6939891" vertical-offset="1557" max-vertical-offset="2108">
+        <state line="115" column="89" selection-start="3444" selection-end="3444" vertical-scroll-proportion="0.6284153" vertical-offset="1559" max-vertical-offset="2108">
           <folding />
         </state>
       </provider>

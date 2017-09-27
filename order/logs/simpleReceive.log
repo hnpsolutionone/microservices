@@ -2,3 +2,5 @@
 [2017-09-27 07:56:13] simpleReceive.INFO: Start listening routine [] []
 [2017-09-27 07:56:13] simpleReceive.INFO: Consuming from channel [] []
 [2017-09-27 07:58:04] simpleReceive.INFO: Received 2 Pizzas [] []
+[2017-09-27 12:48:18] simpleReceive.INFO: Received Phuong Nguyen [] []
+[2017-09-27 12:52:52] simpleReceive.INFO: Received Khanh Ly [] []

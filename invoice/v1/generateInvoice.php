@@ -13,7 +13,3 @@ $input = filter_input_array(INPUT_POST, $inputFilters);
 $sender = new WorkerSender();
 
 $sender->execute($input['invoiceNo']);
-echo json_encode(array(
-        'status' => 200,
-        'message' => 'Executed successful'
-    ));
