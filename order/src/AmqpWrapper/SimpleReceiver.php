@@ -31,7 +31,7 @@ class SimpleReceiver
      */
     public function listen()
     {
-        
+
         $this->log->addInfo('Start listening routine');
         
         $connection = new AMQPConnection(
@@ -60,7 +60,7 @@ class SimpleReceiver
             false,                  #no wait
             array($this, 'addLog')  #callback
             );
-            
+
         $this->log->addInfo('Consuming from channel');
 
         while(count($channel->callbacks)) {
@@ -76,6 +76,7 @@ class SimpleReceiver
      */
     public function addLog($msg)
     {
+        echo 'Received ' . $msg->body . '\n';
         $this->log->addInfo('Received ' . $msg->body);
         $this->pizzaLog->addInfo($msg->body);
     }

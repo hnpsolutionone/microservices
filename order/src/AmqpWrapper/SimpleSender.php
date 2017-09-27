@@ -26,7 +26,7 @@ class SimpleSender
      */
     public function execute($message)
     {
-        
+
         $this->log->addInfo('Received message to send: ' . $message);
         
         $connection = new AMQPConnection(
@@ -55,7 +55,7 @@ class SimpleSender
             '',             #exchange
             'pizzaTime'     #routing key
             );
-            
+
         $this->log->addInfo('Message sent');
         
         $channel->close();

@@ -82,6 +82,7 @@ class WorkerReceiver
      */ 
     public function process(AMQPMessage $msg)
     {
+        echo 'Received message: ' . $msg->body . '\n';
         $this->log->addInfo('Received message: ' . $msg->body);
         
         $this->generatePdf()->sendEmail();
@@ -120,13 +121,14 @@ class WorkerReceiver
      */ 
     private function sendEmail()
     {
+        echo 'Sending email...\n';
         $this->log->addInfo('Sending email...');
         
         /**
          * Mocking email sending time.  This will take between 1 and 3 seconds
          */ 
          sleep(mt_rand(1,3));
-         
+        echo 'Email sent...\n';
          $this->log->addInfo('Email sent');
     }
 }
