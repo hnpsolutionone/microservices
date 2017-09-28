@@ -58,7 +58,7 @@ class SimpleReceiver
             true,                   #no ack
             false,                  #exclusive
             false,                  #no wait
-            array($this, 'addLog')  #callback
+            array($this, 'processOrder')  #callback
             );
 
         $this->log->addInfo('Consuming from channel');
@@ -74,7 +74,7 @@ class SimpleReceiver
     /**
      * @param $msg
      */
-    public function addLog($msg)
+    public function processOrder($msg)
     {
         echo 'Received ' . $msg->body . '\n';
         $this->log->addInfo('Received ' . $msg->body);

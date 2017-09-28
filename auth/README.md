@@ -1,5 +1,2 @@
-SPRabbitMQ
+to process orders and generate invoice with PDF file and send email to client
 ==========
-
-PoC project for sitepoint.com PHP + RabbitMQ
-Reference: https://www.sitepoint.com/use-rabbitmq-php/
